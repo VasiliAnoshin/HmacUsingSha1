@@ -2,8 +2,8 @@
 Hmac implemented in principle described :
 <a href="https://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC wikipedia</a>
 
+User manual
 Hmac-sha1 : 
-
 For HMAC computation or Verify :
 
 java -jar executable_project.jar messageFile.txt keyFile.txt OutputFile.txt
