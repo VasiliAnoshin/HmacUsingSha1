@@ -1,0 +1,14 @@
+Main (HMAC class ) : 
+User get two options for choose and perform request (generate or verify ). 
+The system is waiting until user press 1 or 2 in the Console window and then perform operation . 
+For generate : system read the message and key from the messagePath and keyPath and
+generate digestFile using HMAC logic with Sha1.
+For verify we compare the existing decoded dgest key and new generated . 
+If we get the same number we get 
+Asscept - else REJECT .
+
+In the same file we have method PerformEncription() that actually include HMAC logic using Sha1 .
+implemented according to RFC 2104 
+
+Sha1 implemented according to rfc3174 
+ 
